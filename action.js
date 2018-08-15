@@ -15,13 +15,13 @@ class action {
         this.injections = injections
         const initState = getInitState(),
             defaultAppName = initState.data.currentAppName,
-            currentAppName = history.getChildApp('mk-app-root') || defaultAppName
+            currentAppName = history.getChildApp('mk-sys-root') || defaultAppName
 
         initState.data.currentAppName = currentAppName
         injections.reduce('init', { initState })
 
-        history.listen('mk-app-root', this.listen)
-        this.onRedirect({ appName: history.getChildApp('mk-app-root') || defaultAppName })
+        history.listen('mk-sys-root', this.listen)
+        this.onRedirect({ appName: history.getChildApp('mk-sys-root') || defaultAppName })
     }
 
     listen = (childApp, location, action) => {
@@ -35,11 +35,11 @@ class action {
     }
 
     onRedirect = ({ appName }) => {
-        history.pushChildApp('mk-app-root', appName)
+        history.pushChildApp('mk-sys-root', appName)
     }
 
     componentWillUnmount = () => {
-        history.unlisten('mk-app-root', this.listen)
+        history.unlisten('mk-sys-root', this.listen)
     }
 }
 

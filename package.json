@@ -1,7 +1,7 @@
 {
   "isMKApp": true,
   "name": "mk-sys-root",
-  "description": "mk-app-root",
+  "description": "mk-sys-root",
   "version": "1.0.0",
   "license": "MIT",
   "author": "",
@@ -28,7 +28,6 @@
     "pkg": "mk pkg"
   },
   "dependencies": {
-    "mk-app-welcome": "*",
     "mk-command": "*",
     "mk-sdk": "*"
   }

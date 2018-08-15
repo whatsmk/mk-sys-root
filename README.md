@@ -1,2 +1,2 @@
-# mk-app-root
+# mk-sys-root
 

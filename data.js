@@ -4,7 +4,7 @@ export function getMeta() {
     return {
         name: 'root',
         component: '::div',
-        className: 'mk-app-root',
+        className: 'mk-sys-root',
         children: {
             name: 'currentApp',
             component: 'AppLoader',
