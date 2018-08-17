@@ -99,7 +99,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports,"__esModule",{value:true});var _webapi=__webpack_require__(7);var _webapi2=_interopRequireDefault(_webapi);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}var _options={webapi:_webapi2.default,startAppName:'mk-app-login'};function config(options){if(options){Object.assign(_options,options);}}config.current=_options;exports.default=config;module.exports=exports['default'];
+Object.defineProperty(exports,"__esModule",{value:true});var _webapi=__webpack_require__(7);var _webapi2=_interopRequireDefault(_webapi);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}var _options={webapi:_webapi2.default,startAppName:'mk-sys-sign-in'};function config(options){if(options){Object.assign(_options,options);}}config.current=_options;exports.default=config;module.exports=exports['default'];
 
 /***/ }),
 /* 1 */
@@ -138,7 +138,7 @@ Object.defineProperty(exports,"__esModule",{value:true});var _mkMetaEngine=__web
 /* 6 */
 /***/ (function(module) {
 
-module.exports = {"isMKApp":true,"name":"mk-sys-root","description":"mk-sys-root","version":"1.0.0","license":"MIT","author":"","keywords":["mk","monkey king","react","redux","mk-js","mk-command","mk-sys-root"],"repository":{"type":"git","url":"https://github.com/whatsmk/mk-sys-root.git"},"bugs":{"url":"https://github.com/whatsmk/mk-sys-root/issues"},"homepage":"https://github.com/whatsmk/mk-sys-root#readme","scripts":{"start":"mk start","build":"mk build","pkg":"mk pkg"},"dependencies":{"mk-command":"*","mk-sdk":"*"}};
+module.exports = {"isMKApp":true,"name":"mk-sys-root","description":"mk-sys-root","version":"1.0.1","license":"MIT","author":"","keywords":["mk","monkey king","react","redux","mk-js","mk-command","mk-sys-root"],"repository":{"type":"git","url":"https://github.com/whatsmk/mk-sys-root.git"},"bugs":{"url":"https://github.com/whatsmk/mk-sys-root/issues"},"homepage":"https://github.com/whatsmk/mk-sys-root#readme","scripts":{"start":"mk start","build":"mk build","pkg":"mk pkg"},"dependencies":{"mk-command":"*","mk-sdk":"*"}};
 
 /***/ }),
 /* 7 */
