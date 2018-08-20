@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +11,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="renderer" content="webkit" />
     <meta name="viewport" content="maximum-scale=1.0">
-    <!--<link type="text/css" rel='stylesheet' href='./@preApp.css' />-->
+    
 </head>
 <body>
     <div id='app' style="width:100%;height: 100%"></div>
@@ -33,12 +35,12 @@
                     }
                 },
             })
-            var options = {}
-            /*mk.requireApps(require, undefined, function () {*/
+            var options = {};
+
+            
                 mk.init({
                     requireFn: require,
                     appsMap:{
-                        
                         
                         "mk-sys-root":{
                             asset: "mk-sys-root.js",
@@ -47,7 +49,7 @@
                     }
                 });
                 mk.render('mk-sys-root', 'app');
-            /*})*/
+            
         }
     </script>
     <script src="mk.js"></script>

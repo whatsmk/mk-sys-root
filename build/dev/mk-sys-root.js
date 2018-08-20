@@ -138,7 +138,7 @@ Object.defineProperty(exports,"__esModule",{value:true});var _mkMetaEngine=__web
 /* 6 */
 /***/ (function(module) {
 
-module.exports = {"isMKApp":true,"name":"mk-sys-root","description":"mk-sys-root","version":"1.0.1","license":"MIT","author":"","keywords":["mk","monkey king","react","redux","mk-js","mk-command","mk-sys-root"],"repository":{"type":"git","url":"https://github.com/whatsmk/mk-sys-root.git"},"bugs":{"url":"https://github.com/whatsmk/mk-sys-root/issues"},"homepage":"https://github.com/whatsmk/mk-sys-root#readme","scripts":{"start":"mk start","build":"mk build","pkg":"mk pkg"},"dependencies":{"mk-command":"*","mk-sdk":"*"}};
+module.exports = {"isMKApp":true,"name":"mk-sys-root","description":"mk-sys-root","version":"1.0.0","license":"MIT","author":"","keywords":["mk","monkey king","react","redux","mk-js","mk-command","mk-sys-root"],"repository":{"type":"git","url":"https://github.com/whatsmk/mk-sys-root.git"},"bugs":{"url":"https://github.com/whatsmk/mk-sys-root/issues"},"homepage":"https://github.com/whatsmk/mk-sys-root#readme","scripts":{"start":"mk start","build":"mk build","pkg":"mk pkg"},"dependencies":{"mk-command":"*","mk-sdk":"*"}};
 
 /***/ }),
 /* 7 */
